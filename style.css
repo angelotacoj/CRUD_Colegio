@@ -9,6 +9,7 @@ nav{
     padding: 15px 40px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 
 .border-bottom{
@@ -49,4 +50,11 @@ nav{
 .nav-buttons{
     display: flex;
     flex-direction: column;
+}
+
+#round{
+
+    border-width: thin;
+    border-style: solid;
+    border-color: blue;
 }
