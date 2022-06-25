@@ -21,75 +21,99 @@
         <button type="button" class="btn btn-info">Menu principal</button>
     </a>
   </nav>
-  <div class="d-flex justify-content-center mt-3 border" style="padding-left: 400px;">
-    <div class="row" style="width: 30%;">
-      <div class="row">
-        <input type="text" class="form-control" placeholder="Nombres" aria-label="First name" disabled>
+
+  <div class="container" id="round">
+    <div class="row g-3 align-items-center" style="margin-top: 10px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Nombre:</b></label>
       </div>
-      <div class="row">
-        <input type="text" class="form-control" placeholder="Apellido P." aria-label="First name" disabled>
+      <div class="col-auto">
+        <input type="text"  class="form-control" aria-describedby="passwordHelpInline">
       </div>
-      <div class="row">
-        <input type="text" class="form-control" placeholder="Apellido M." aria-label="First name" disabled>
-      </div>
-      <div class="row">
-        <input type="text" class="form-control" placeholder="DNI" aria-label="First name" disabled>
-      </div>
-      <div class="row">
-        <input type="text" class="form-control" placeholder="Fecha de nacimiento" aria-label="First name" disabled>
-      </div>
-      <div class="row">
-        <input type="text" class="form-control" placeholder="Contacto" aria-label="First name" disabled>
+      <div class="col-auto">
+        
       </div>
     </div>
-    <div class="col">
-      <input style="width: 30%;" type="text" class="form-control" placeholder="Nuevo contacto" aria-label="First name" disabled>
+    <div class="row g-3 align-items-center" style="margin-top: 10px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Apellidos:</b></label>
+      </div>
+      <div class="col-auto">
+        <input type="text"  class="form-control"  aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+        
+      </div>
     </div>
+    <div class="row g-3 align-items-center" style="margin-top: 10px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>DNI:</b></label>
+      </div>
+      <div class="col-auto">
+        <input type="text"  class="form-control"  aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+       
+      </div>
+    </div>
+    <div class="row g-3 align-items-center" style="margin-top: 10px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Fecha de Nacimiento:</b></label>
+      </div>
+      <div class="col-auto">
+        <input type="date" class="form-control" aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+        
+      </div>
+    </div>
+    <div class="row g-3 align-items-center" style="margin-top: 10px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Contacto:</b></label>
+      </div>
+      <div class="col-auto">
+        <input type="text"  class="form-control"  aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+       
+      </div>
+    </div>
+    <div class="row g-3 align-items-center" style="margin-top: 10px; border-bottom: 3px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Email:</b></label>
+      </div>
+      <div class="col-auto">
+        <input type="text"  class="form-control"  class="form-control" aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+       
+      </div>
+    </div>
+    <div class="row g-3 align-items-center" style="margin-top: 12px;">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label"><b>Cambio de Contraseña</b></label>
+      </div>
+      
+      
+    </div>
+    <div class="row g-3 align-items-center" style="margin-top: 10px; border-bottom: 3px;">
+      
+      <div class="col-auto" style="margin-left: 450px;">
+        
+        <div class="row g-3 align-items-center"><b>
+          Actual:
+        </b><input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"></div>
+
+        <div class="row g-3 align-items-center"><b>
+          Nueva:
+        </b><input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"></div>
+        
+      </div>
+    </div>
+
+
   </div>
-            <!-- <section class="vh-100 gradient-custom">
-              <div class="container py-5 h-100">
-                  <div class="row justify-content-center align-items-center h-100">
-                      <div class="col-12 col-lg-9 col-xl-7">
-                        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-                          <div class="card-body p-4 p-md-5">
-                              <form >
-                                  <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">EMAIL</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                                  </div>
-                                  <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">NOMBRES</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
-                                  </div>
-                                  <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">APELLIDOS</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">DNI</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">FECHA NACIMIENTO</label>
-                                      <input type="date" class="form-control" >
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="exampleInputPassword1" class="form-label">CONTACTO</label>
-                                      <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                  <div class="mb-3 form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">RECIBIR NOTIFICACIONESt</label>
-                                  </div>
-                                  <button type="submit" class="btn btn-primary">Guardar Cambios</button>
-                                </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </div>
-          </section> -->
+  
       
 </body>
 </html>
